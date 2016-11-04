@@ -70,21 +70,26 @@ body {
 	text-align: left;
 }
 
-a {
+.link {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
 	text-align: right;
 	text-decoration: underline;
 	color: #26C6DA;
+
+	-webkit-transition: color 0.5s, text-shadow 0.5s;
+  -moz-transition: color 0.5s, text-shadow 0.5s;
+  -o-transition: color 0.5s, text-shadow 0.5s;
+  transition: color 0.5s, text-shadow 0.5s;
 }
 
-a:hover {
+.link:hover {
 	color: #00ACC1;
 	text-shadow: 1px 1px 8px #00ACC1;
 }
 
-a:active {
+.link:active {
 	color: #0097A7;
 	text-shadow: 2px 2px 8px #0097A7;
 }
